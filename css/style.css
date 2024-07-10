@@ -1,0 +1,42 @@
+/*CSS Reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/*Utils*/
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+/*Generics*/
+
+/*Main*/
+
+.full-page{
+    height: 100vh;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.content img{
+    max-width: 100%;
+}
+
+.content h1{
+    text-align: center;
+    font-size: 42px;
+}
