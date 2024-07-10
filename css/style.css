@@ -10,6 +10,10 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html{
+    overflow-y: scroll;
+}
+
 /*Utils*/
 
 .container{
@@ -23,9 +27,10 @@ body{
 
 .full-page{
     height: 100vh;
+    position: relative;
 }
 
-.content{
+.full-page .content{
     position: absolute;
     top: 50%;
     left: 50%;
